@@ -1,4 +1,4 @@
-#Example
+# Methods return value
 def calculate_value(x,y)
   p "x / y = #{x / y}"
 end
@@ -14,7 +14,7 @@ def fourth_calculate_value(x,y)
   return puts " x / y = #{x / y}" if y > 0
 end
 
-#Excute method
+# Excute method
 puts "1.Call method calculate_value(x,y)"
 calculate_value(4, 2)
 puts "2.Call method second_calculate_value(x,y)"
